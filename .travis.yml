@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-skyline.gemspec
+- gem install sensu-plugins-skyline-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: L9/mf+1tv2+smY6JcZSw5DKKd7+Useoy+KJWZKaNEomd5omXVbhMGjwMqeeNRMmrP6ohktVPHn+fImgXPXUz/KPYH+ssblzWh7UuX1XKishYvyPYlczMBy92r42QWqfSbE2qrztemc++WYPV9ghOPxWgkRr19UVOWiMCGZGVfx4=
+    secure: ktOeDb2GsKqFq/yvjaaZmf+N/p0R86gjyAI1GdThOCH1w4KGqpbDpMD1YMwQ5S/quRbrVdYTBjt+uL2HKXYxedTNPrkeJ6BXUZkHPQ0cYU8LqP/IednVz/u2tH05kmzqzK9CaB8UjX/2H+ni/BZ1Zd628rOnWwvcBtx4SlOhkys=
   gem: sensu-plugins-skyline
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0

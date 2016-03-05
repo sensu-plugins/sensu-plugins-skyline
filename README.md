@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-skyline.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-skyline)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-skyline](https://codeship.com/projects/f7949050-edb2-0132-2240-5a51cb58650a/status?branch=master)](https://codeship.com/projects/84070)
 
 ## Functionality
 

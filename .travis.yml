@@ -24,7 +24,7 @@ deploy:
     secure: ktOeDb2GsKqFq/yvjaaZmf+N/p0R86gjyAI1GdThOCH1w4KGqpbDpMD1YMwQ5S/quRbrVdYTBjt+uL2HKXYxedTNPrkeJ6BXUZkHPQ0cYU8LqP/IednVz/u2tH05kmzqzK9CaB8UjX/2H+ni/BZ1Zd628rOnWwvcBtx4SlOhkys=
   gem: sensu-plugins-skyline
   on:
-    ags: true
+    tags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0

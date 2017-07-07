@@ -1,5 +1,7 @@
 ## Sensu-Plugins-skyline
 
+# This repo is deprecated as Skyline is no longer being maintained. It will be removed.
+
 [ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-skyline.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-skyline)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-skyline.svg)](http://badge.fury.io/rb/sensu-plugins-skyline)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-skyline)

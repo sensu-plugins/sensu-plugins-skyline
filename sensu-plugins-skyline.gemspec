@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsSkyline::Version::VER_STRING
 
-  s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
+  s.add_runtime_dependency 'sensu-plugin', '>= 1.2', '< 5.0'
   s.add_runtime_dependency 'msgpack', '0.6.1'
 
   s.add_development_dependency 'bundler',                   '~> 1.7'
